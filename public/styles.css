@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    height: 100%; /* Make sure the HTML element covers the full viewport height */
+  }
+  
+  body {
+    background: #111; /* Dark background */
+    color: #eee; /* Light text color */
+    padding: 0 16px;
+    min-height: 100%; /* Ensure a minimum height for the body */
+    position: relative; /* Relative positioning for the footer */
+  }
+  
+  header {
+    background-color: #222; /* Dark header background */
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  .content {
+    /* Add this class to create space for the footer */
+    margin-bottom: 60px; /* Adjust as needed to make room for the footer */
+  }
+  
+  footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #222; /* Dark footer background */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    position: absolute;
+    bottom: 0;
+  }
+  
+  footer p {
+    color: #ccc; /* Medium text color */
+  }
+  
+  .note {
+    background: #333; /* Dark note background */
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 20px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    transition: transform 0.3s ease; /* Interactive transformation */
+  }
+  
+  .note:hover {
+    transform: scale(1.05); /* Enlarge on hover for interactivity */
+  }
+  
+  .note h1 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #ccc; /* Medium text color */
+  }
+  
+  .note button {
+    float: right;
+    color: #ccc; /* Lighter text color */
+    background-color: #333; /* Dark button background */
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s ease; /* Interactive transformation */
+  }
+  
+  .note button:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover for emphasis */
+  }
+  
+  form {
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #222; /* Dark form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Interactive transformation */
+  }
+  
+  form:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover for interactivity */
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    background: #333; /* Dark input background */
+    color: #eee;
+  }
+  
+  form button {
+    background-color: #222; /* Dark button background */
+    color: #ccc; /* Lighter text color */
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover for emphasis */
+  }
+  
